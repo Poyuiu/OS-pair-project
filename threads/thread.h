@@ -115,11 +115,11 @@ class Thread {
 	//<TODO>
     // Set & Get the value in Class Thread
     // 1. get ID
-
+    int getID() { return ID; }
     // 2. set/get RunTime
-
+    int getRunTime() { return RunTime; }
 	// 3. set/get PreditedBurstTime
-
+    int getPreditedBurstTime() {return PredictedBurstTime; }
     //<TODO>
 
   private:
